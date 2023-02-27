@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YOPEDIA">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>YOPEDIA</title>
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <h1 class="site-title">
+            <a href="#">YOPEDIA</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#trickvideo">Trick&nbsp;Video</a></li>
+                <li><a href="#news">News</a></li>
+                <li>
+                    <a href="https:///www.twitter.com" target="_blank" rel="noopener noreferrer"><img src="twitter.png" alt="twitter" class="icon"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <div id="main">
+        <picture>
+            <source media="(max-width: 600px)" srcset="nc165776.png">
+            <!-- 仮置きの彼岸花の画像 -->
+            <img src="nc165776.png" alt="">
+        </picture>
+    </div>
+
+    <!-- beginner -->
+    <section id="profile" class="wrapper">
+        <h2 class="sec-title">Profile</h2>
+        <ul>
+            <li>名前&#058;ロダ</li>
+            <li>ヨーヨー歴&#058;約十年</li>
+            <p>小学低学年の頃、ハイパーヨーヨー(第三期)にハマる。その後、三年ほど熱中するも親の都合により内地へと引っ越すことに、それを機にしばらくヨーヨーから離れる。内地で一年ほど暮らしたのち沖縄に戻ってくる、そして中学に上がると同時期にYouTubeでヨーヨーの2009年世界チャンピオン城戸慎也氏の演技を見る。彼に憧れ再びヨーヨーを手にする。現在はYouTubeを中心にヨーヨーのトリック解説動画を時々投稿している。</p>
+        </ul>
+    </section>
+
+    <!-- Trick Video -->
+    <section id="trickvideo" class="wrapper">
+        <h2 class="sec-title">Trick&nbsp;Video</h2>
+        <ul>
+            <li><img src="B_18.jpg" alt="trickvideo"></li>
+            <li><img src="B_20.jpg" alt="trickvideo"></li>
+            <li><img src="B_18.jpg" alt="trickvideo"></li>
+            <li><img src="B_20.jpg" alt="trickvideo"></li>
+            <li><img src="B_18.jpg" alt="trickvideo"></li>
+            <li><img src="B_20.jpg" alt="trickvideo"></li>
+            <li><img src="B_18.jpg" alt="trickvideo"></li>
+            <li><img src="B_20.jpg" alt="trickvideo"></li>
+            <li><img src="B_18.jpg" alt="trickvideo"></li>
+        </ul>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="wrapper">
+        <h2 class="sec-title">News</h2>
+        <dl>
+            <dt>2023/2/18</dt>
+            <dd>本サイトをリリースしました。</dd>
+            <dt>2023/2/18</dt>
+            <dd>トリック解説動画を掲載。</dd>
+            <dt>2023/2/18</dt>
+            <dd>体調不良にて更新できず。</dd>
+            <dt>2023/2/18</dt>
+            <dd>体調不良にて更新できず。</dd>
+            <dt>2023/2/18</dt>
+            <dd>体調不良にて更新できず。</dd>
+        </dl>
+    </section>
+
+    <!-- Contact --> 
+    <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <p>お問い合わせは以下のフォームから</p>
+        <form action="#" method="post">
+            <dl>
+                <dt><label for="name">お名前</label></dt>
+                <dd><input type="text" id="name"></dd>
+                <dt><label for="email">メールアドレス</label></dt>
+                <dd><input type="email" id="email"></dd>
+                <dt><label for="content">内容</label></dt>
+                <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+            </dl> 
+            <div class="button"><input type="submit" value="送信"></div>
+        </form>
+    </section>
+</body>
+</html>
